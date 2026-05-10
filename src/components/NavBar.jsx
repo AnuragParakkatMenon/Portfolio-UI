@@ -26,9 +26,9 @@ const NavBar = () => {
       bgColor: "#271E37", 
       textColor: "#fff",
       links: [
-        { label: "Email", ariaLabel: "Email us" },
-        { label: "Twitter", ariaLabel: "Twitter" },
-        { label: "LinkedIn", ariaLabel: "LinkedIn" }
+        { label: "Email", href:"mailto:anuragparakkatm@gmail.com", ariaLabel: "Email us" },
+        { label: "Github", href:"https://github.com/AnuragParakkatMenon",ariaLabel: "Github" },
+        { label: "LinkedIn", href:"https://www.linkedin.com/in/anuragparakkatm", ariaLabel: "LinkedIn" }
       ]
     }
   ];
