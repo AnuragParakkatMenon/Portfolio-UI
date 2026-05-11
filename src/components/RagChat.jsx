@@ -27,7 +27,7 @@ const RagChat = () => {
     setLoading(true)
 
     try {
-      const response = await fetch("https://portfolio-rag-api-production.up.railway.app/query", {
+      const response = await fetch("https://anuragmenon.com/api/query", {
         method: "POST",
         headers: {
           "Content-Type": "application/json"
